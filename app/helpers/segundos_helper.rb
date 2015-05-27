@@ -1,0 +1,2 @@
+module SegundosHelper
+end

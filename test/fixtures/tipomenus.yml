@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idtipo: 
+  name: MyString
+  description: 
+
+two:
+  idtipo: 
+  name: MyString
+  description: 

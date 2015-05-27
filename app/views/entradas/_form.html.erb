@@ -1,0 +1,29 @@
+<%= form_for(@entrada) do |f| %>
+  <% if @entrada.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@entrada.errors.count, "error") %> prohibited this entrada from being saved:</h2>
+
+      <ul>
+      <% @entrada.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :identrada %><br>
+    <%= f.text_field :identrada %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_field :description %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

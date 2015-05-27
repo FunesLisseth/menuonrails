@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  identrada: 
+  name: MyString
+  description: MyString
+
+two:
+  identrada: 
+  name: MyString
+  description: MyString
