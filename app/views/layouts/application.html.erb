@@ -7,8 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<link rel="stylesheet" href="http://railsgirls.com/assets/bootstrap.css">
 
+<%= render "shared/header" %>
+
+<div class="container">
 <%= yield %>
+</div>
 
+<%= render "shared/footer" %>
 </body>
 </html>
